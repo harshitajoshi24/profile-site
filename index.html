@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harshita Joshi – Data Science & AI Student</title>
+<meta name="description" content="Profile website of Harshita Joshi, T.Y. B.Sc Data Science & AI student at JSPM University Pune.">
+
+<!-- ===== GOOGLE ANALYTICS (GA4) =====
+  Measurement ID set. -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6CQX12YY6R"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-6CQX12YY6R');
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a1020; --panel:#111a2e; --line:#1f2b45;
+    --text:#eef1f8; --muted:#aab4cb; --accent:#2dd4bf; --violet:#7c7cf0;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1190px;margin:auto;padding:0 24px}
+  header .wrap{display:flex;justify-content:space-between;align-items:center;padding-top:28px;padding-bottom:28px;flex-wrap:wrap;gap:12px}
+  .brand{font-weight:800;font-size:1.25rem}
+  nav a{margin-left:26px;font-weight:600;color:var(--muted)}
+  nav a:hover{color:var(--accent)}
+
+  .hero{display:grid;grid-template-columns:1.25fr 1fr;gap:64px;align-items:center;padding:56px 0 90px}
+  .hero h1{font-size:clamp(3rem,9vw,6.4rem);line-height:1;letter-spacing:-.04em;font-weight:800;margin:0 0 36px}
+  .hero p{font-size:1.4rem;color:var(--muted);max-width:30em;margin:0 0 36px;line-height:1.7}
+  .btns{display:flex;gap:16px;flex-wrap:wrap}
+  .btn{padding:20px 30px;border-radius:999px;font-weight:600;font-size:1.15rem;border:1px solid var(--line)}
+  .btn.primary{background:var(--accent);color:#06241f;border-color:var(--accent)}
+  .btn.primary:hover{filter:brightness(1.08)}
+  .btn.ghost:hover{border-color:var(--accent);color:var(--accent)}
+
+  .chart{background:var(--panel);border:1px solid var(--line);border-radius:28px;padding:30px}
+  .chart svg{width:100%;height:auto;display:block}
+  .chart p{margin:16px 0 0;font-size:1rem;color:var(--muted);line-height:1.6}
+
+  section{padding:80px 0;border-top:1px solid var(--line)}
+  h2{font-size:clamp(2rem,5vw,3rem);letter-spacing:-.03em;font-weight:800;margin:0 0 32px}
+  .about{display:grid;grid-template-columns:1.2fr 1fr;gap:48px;align-items:start}
+  .about p{font-size:1.15rem;color:var(--text);margin:0}
+  .facts{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:12px 28px}
+  .facts div{display:grid;grid-template-columns:120px 1fr;gap:16px;padding:16px 0;border-bottom:1px solid var(--line)}
+  .facts div:last-child{border-bottom:0}
+  .facts span{color:var(--muted)}
+  .facts strong{font-weight:600}
+
+  .tags{display:flex;flex-wrap:wrap;gap:12px}
+  .tags span{background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:10px 20px;font-weight:500}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:20px;padding:28px}
+  .card h3{margin:0 0 8px;font-size:1.2rem}
+  .card p{margin:0;color:var(--muted)}
+  .contact a{color:var(--accent);font-weight:600}
+  .contact li{margin-bottom:10px;list-style:none}
+  .contact ul{padding:0;margin:0;font-size:1.1rem}
+  footer{border-top:1px solid var(--line);padding:32px 24px;text-align:center;color:var(--muted);font-size:.95rem}
+  :focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+  @media(max-width:860px){.hero,.about{grid-template-columns:1fr;gap:40px}.hero{padding-bottom:60px}nav a{margin:0 18px 0 0}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <a class="brand" href="#top">Harshita Joshi</a>
+  <nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#work">Work</a><a href="#contact">Contact</a></nav>
+</div></header>
+
+<main id="top">
+  <div class="wrap hero">
+    <div>
+      <h1>Harshita Joshi</h1>
+      <p>I’m a Data Science &amp; AI student at JSPM University Pune. I turn messy data into clear answers, and I’m learning to measure how people actually use what I build.</p>
+      <div class="btns">
+        <a class="btn primary" href="#work">See my work</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="chart" aria-label="Scatter chart showing insight rising with time spent learning">
+      <svg viewBox="0 0 340 250" role="img">
+        <text x="20" y="22" fill="#aab4cb" font-size="12" font-family="Georgia,serif">Insight</text>
+        <line x1="14" y1="32" x2="14" y2="215" stroke="#1f2b45" stroke-width="2"/>
+        <line x1="14" y1="215" x2="330" y2="215" stroke="#1f2b45" stroke-width="2"/>
+        <g fill="#2a3556">
+          <circle cx="40" cy="190" r="5"/><circle cx="75" cy="205" r="5"/><circle cx="68" cy="175" r="5"/>
+          <circle cx="125" cy="160" r="5"/><circle cx="150" cy="140" r="5"/><circle cx="175" cy="168" r="5"/>
+          <circle cx="205" cy="125" r="5"/><circle cx="230" cy="150" r="5"/><circle cx="262" cy="95" r="5"/>
+          <circle cx="285" cy="62" r="5"/><circle cx="300" cy="78" r="5"/>
+        </g>
+        <line x1="30" y1="192" x2="315" y2="52" stroke="#7c7cf0" stroke-width="2.5" stroke-dasharray="7 6"/>
+        <circle cx="222" cy="106" r="9" fill="#2dd4bf"/>
+        <text x="20" y="238" fill="#aab4cb" font-size="12" font-family="Inter,sans-serif">Time spent learning</text>
+      </svg>
+      <p>More practice, clearer insight. The trend I’m following.</p>
+    </div>
+  </div>
+
+  <section id="about"><div class="wrap">
+    <h2>About me</h2>
+    <div class="about">
+      <p>I’m in the third year of my B.Sc. in Data Science &amp; Artificial Intelligence. I enjoy working with data end to end: collecting it, cleaning it, finding the pattern, and explaining what it means. This website is part of my Google Analytics assignment, where I track how visitors use it.</p>
+      <div class="facts">
+        <div><span>Programme</span><strong>T.Y. B.Sc Data Science &amp; AI</strong></div>
+        <div><span>University</span><strong>JSPM University Pune</strong></div>
+        <div><span>Semester</span><strong>V</strong></div>
+        <div><span>Interests</span><strong>Analytics, Machine Learning</strong></div>
+      </div>
+    </div>
+  </div></section>
+
+  <section id="skills"><div class="wrap">
+    <h2>Skills</h2>
+    <div class="tags">
+      <span>Python</span><span>SQL</span><span>Pandas &amp; NumPy</span><span>Data Visualization</span>
+      <span>Machine Learning</span><span>Google Analytics</span><span>Excel</span>
+    </div>
+  </div></section>
+
+  <section id="work"><div class="wrap">
+    <h2>Work</h2>
+    <div class="grid">
+      <div class="card"><h3>Project one</h3><p>One line on the problem, the tools you used, and the result.</p></div>
+      <div class="card"><h3>Project two</h3><p>One line on the problem, the tools you used, and the result.</p></div>
+      <div class="card"><h3>This website</h3><p>Profile site tracked with Google Analytics 4 for Assignment 03.</p></div>
+    </div>
+  </div></section>
+
+  <section id="contact" class="contact"><div class="wrap">
+    <h2>Contact</h2>
+    <ul>
+      <li>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></li>
+      <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></li>
+      <li>GitHub: <a href="https://github.com/harshitajoshi24">github.com/harshitajoshi24</a></li>
+    </ul>
+  </div></section>
+</main>
+
+<footer>© 2026 Harshita Joshi · T.Y. B.Sc DSAI · JSPM University Pune</footer>
+</body>
+</html>
